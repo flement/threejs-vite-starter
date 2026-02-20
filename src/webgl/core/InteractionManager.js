@@ -63,6 +63,11 @@ export default class InteractionManager {
 
 	update() {
 		if (!this.needsUpdate) return
+		this.needsUpdate = false
+
+		this.intersectsObjects.forEach((object) => {
+			object.isHovered = false
+		})
 		this.intersectsObjects = []
 		if (!this.interactiveObjects.length) return
 		this.raycaster.setFromCamera(this.pointer, this.camera)
