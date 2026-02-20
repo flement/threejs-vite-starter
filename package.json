@@ -10,17 +10,17 @@
 		"preview": "vite preview"
 	},
 	"dependencies": {
-		"three": "^0.169.0"
+		"three": "^0.183.1"
 	},
 	"devDependencies": {
-		"@tweakpane/core": "^2.0.4",
+		"@tweakpane/core": "^2.0.5",
 		"@tweakpane/plugin-essentials": "0.2.1",
-		"@types/three": "^0.169.0",
+		"@types/three": "^0.183.1",
 		"stats.js": "^0.17.0",
-		"tweakpane": "^4.0.4",
-		"tweakpane-plugin-media": "^1.0.3",
+		"tweakpane": "^4.0.5",
 		"tweakpane-plugin-file-import": "^1.1.1",
-		"vite": "^5.4.8",
-		"vite-plugin-glslify": "^2.1.0"
+		"tweakpane-plugin-media": "^1.0.7",
+		"vite": "^7.3.1",
+		"vite-plugin-glslify": "^2.3.0"
 	}
 }

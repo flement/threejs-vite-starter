@@ -17,7 +17,6 @@ export default class VAT {
 
 	#createModel() {
 		this.model = this.resources.items.clothModel.scene.clone()
-		console.log(this.model)
 
 		this.model.position.y = 2
 

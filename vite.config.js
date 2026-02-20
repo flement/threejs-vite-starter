@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite'
-import glslify from 'vite-plugin-glslify'
+import { glslify } from 'vite-plugin-glslify'
 import path from 'path'
 
 export default defineConfig({
@@ -18,5 +18,5 @@ export default defineConfig({
 			core: path.resolve(__dirname, 'src/webgl/core'),
 		},
 	},
-	plugins: [glslify.glslify()],
+	plugins: [glslify()],
 })
